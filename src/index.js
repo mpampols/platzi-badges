@@ -1,15 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
 
-import './global.css';
-import Badge from './components/Badge';
+import "./global.css";
+import App from "./components/App";
 
-const container = document.getElementById('app');
+const container = document.getElementById("app");
 
-ReactDOM.render(<Badge 
-                    firstName="Eli" 
-                    lastName="Martin" 
-                    avatarUrl="https://www.gravatar.com/avatar?d=identicon"
-                    jobTitle="Engineer" 
-                    twitter="mpampols"/>, container);
+ReactDOM.render(<App />, container);
